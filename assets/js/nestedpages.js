@@ -1000,9 +1000,9 @@ NestedPages.Nesting = function()
 				start: function(e, ui){
 					ui.placeholder.height(ui.item.height());
 				},
-				sort: function(e, ui){
-					plugin.formatter.updatePlaceholderWidth(ui);
-				},
+				// sort: function(e, ui){
+				// 	plugin.formatter.updatePlaceholderWidth(ui);
+				// },
 				stop: function(e, ui){
 					setTimeout(
 						function(){

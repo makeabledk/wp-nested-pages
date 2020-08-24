@@ -9,7 +9,7 @@ class NestedPages
 	{
 		// dev/live
 		global $np_env;
-		$np_env = 'live';
+		$np_env = 'dev';
 
 		global $np_version;
 		$np_version = '3.1.12';
